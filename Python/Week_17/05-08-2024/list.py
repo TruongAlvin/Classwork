@@ -35,5 +35,12 @@ print (even)
 b = lst
 
 #create a variable named joined, and joins an even and odd list by using an operator
-joined = lst
-lst+[even,odd]
+joined = even + odd
+
+#output the variable joined
+print(joined)
+
+#output the type of the variable joined
+print(type(joined))
+
+#compare the list "b" to the list joined, using positional comparison
