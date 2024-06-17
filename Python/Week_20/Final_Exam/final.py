@@ -11,6 +11,11 @@ def main():
     for word in words:
         words_dict[len(word)].append(word)
     print(words_dict)
+    actual_word = "UMBRA"
+    for i in range(6):
+        guess=input("Guess a word: ")
+        if guess == actual_word:
+            return print('You Got The Word!')
 def Subword(word_a,word_b):
     for letter in word_a:
         if word_a.count(letter) > word_b.count(letter):
